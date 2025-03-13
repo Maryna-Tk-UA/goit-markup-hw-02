@@ -37,6 +37,7 @@ body {
   .contacts {
     font-style: normal;
  }
+
  .contact-link {
         font-size: 16px;
         line-height: 1.5;
@@ -47,17 +48,90 @@ body {
   .nav-link:hover,
   .nav-link:focus,
   .contact-link:hover,
-  .contact-link:focus {
+  .contact-link:focus,
+  .portfolio-name:hover,
+  .portfolio-name:focus,
+  .portfolio-descr:hover,
+  .portfolio-descr:focus {
       color: #404bbf;
   }
 
+ .hero {
+  background-color: #2e2f42;
+ }
+
+.title {
+  font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.order {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #fff;
+}
+
+.benefits-title,
+.team-name,
+.portfolio-name {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.benefits-content {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.title-team,
+.title-portfolio {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-name,
+.portfolio-name {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-text,
+.portfolio-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
  .page-footer {
-    background-color: #2e2f42;;
+   background-color: #2e2f42;
+   ;
  }
 
  .footer-logo .logo-part {
-    color: #f4f4fd;
+   color: #f4f4fd;
  }
 
- 
-
+ .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+ }
