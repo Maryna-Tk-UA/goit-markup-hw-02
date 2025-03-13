@@ -48,11 +48,7 @@ body {
   .nav-link:hover,
   .nav-link:focus,
   .contact-link:hover,
-  .contact-link:focus,
-  .portfolio-name:hover,
-  .portfolio-name:focus,
-  .portfolio-descr:hover,
-  .portfolio-descr:focus {
+  .contact-link:focus {
       color: #404bbf;
   }
 
@@ -65,13 +61,22 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
 .order {
   cursor: pointer;
   background-color: #4d5ae5;
-  color: #fff;
+  font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.order:hover,
+.order:focus {
+  background-color: #404BBF
 }
 
 .benefits-title,
@@ -91,16 +96,19 @@ body {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #FFFFFF;
 }
 
 .title-team,
 .title-portfolio {
+  
   font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .team-name,
