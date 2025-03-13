@@ -96,7 +96,7 @@ body {
 }
 
 .team {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 }
 
 .title-team,
@@ -109,6 +109,10 @@ body {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize
+}
+
+.team-item {
+  background-color: #FFFFFF
 }
 
 .team-name,
